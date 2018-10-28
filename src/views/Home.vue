@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <ListKhassida />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import ListKhassida from "../components/ListKhassida";
 
-  export default {
-    components: {
-      HelloWorld
-    }
+export default {
+  components: {
+    ListKhassida
   }
+};
 </script>
