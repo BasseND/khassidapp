@@ -1,32 +1,35 @@
 <template>
-    <v-layout>
-        <v-flex xs12 sm12 offset-sm2 offset-md1>
-            <v-container grid-list-sm fluid>
+  <v-layout>
+    <v-flex xs12 sm12 offset-sm2 offset-md1>
+      <v-container grid-list-sm fluid>
 
-                <v-layout row wrap mt-5>
-                    <v-flex xs12 md2 sm4 mr-3 mb-3 v-for="item in items2" :key="item.title">
-                        <v-card>
-                            <v-img :src="item.khassidaThumb" height="160px">
-                                <v-container fill-height fluid pa-2>
-                                    <v-layout fill-height>
-                                        <v-flex xs12 align-end flexbox>
-                                            <span class="headline white--text" v-text="item.arabicTitle"></span>
-                                        </v-flex>
-                                    </v-layout>
-                                </v-container>
-                            </v-img>
-
-                            <v-card-actions>
-                                <h2>{{ item.title }}</h2>
-                            </v-card-actions>
-                        </v-card>
-
+        <v-layout row wrap mt-5>
+          <v-flex xs12 md2 sm4 mr-3 mb-3 v-for="item in items2" :key="item.title">
+            <v-card>
+              <v-img :src="item.khassidaThumb" height="160px">
+                <v-container fill-height fluid pa-2>
+                  <v-layout fill-height>
+                    <v-flex xs12 align-end flexbox>
+                      <!--span class="headline white--text" v-text="item.arabicTitle"></span-->
                     </v-flex>
-                </v-layout>
+                  </v-layout>
+                </v-container>
+              </v-img>
 
-            </v-container>
-        </v-flex>
-    </v-layout>
+              <v-card-actions>
+                <div class="titles">
+                  <h2>{{ item.title }}</h2>
+                  <h4>{{ item.arabicTitle }}</h4>
+                </div>
+              </v-card-actions>
+            </v-card>
+
+          </v-flex>
+        </v-layout>
+
+      </v-container>
+    </v-flex>
+  </v-layout>
 </template>
 
 
