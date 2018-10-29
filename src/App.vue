@@ -55,6 +55,11 @@ export default {
           icon: "work"
         },
         {
+          title: "Grid Display",
+          path: "/grid",
+          icon: "work"
+        },
+        {
           title: "Ajouter Khassida",
           path: "/add",
           icon: "work"
