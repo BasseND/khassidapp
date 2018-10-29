@@ -1,10 +1,10 @@
 <template>
     <v-layout>
-        <v-flex xs12 sm12 offset-sm1>
+        <v-flex xs12 sm12 offset-sm2 offset-md1>
             <v-container grid-list-sm fluid>
 
                 <v-layout row wrap mt-5>
-                    <v-flex xs12 sm2 mr-3 mb-3 v-for="item in items2" :key="item.title">
+                    <v-flex xs12 md2 sm4 mr-3 mb-3 v-for="item in items2" :key="item.title">
                         <v-card>
                             <v-img :src="item.khassidaThumb" height="160px">
                                 <v-container fill-height fluid pa-2>
@@ -43,7 +43,7 @@ export default {
           arabicTitle: "قصة حبي أو",
           khassidaPdfUrl: "http://www.daaraykamil.com/Asma-ul-Husna-ar.pdf",
           khassidaThumb:
-            "https://www.muslimette-magazine.com/wp-content/uploads/2016/05/ramadan-900x556.jpg",
+            "https://image.freepik.com/vecteurs-libre/fond-d-39-ecran-religieux-eid-mubarak_1055-2500.jpg",
           khassidaFirstLetter: "A" // mettre un regex
         },
         {
@@ -76,7 +76,7 @@ export default {
           arabicTitle: "قصة حبي أو",
           khassidaPdfUrl: "http://www.daaraykamil.com/Asma-ul-Husna-ar.pdf",
           khassidaThumb:
-            "https://adminassets.devops.arabiaweather.com/sites/default/files/field/image/%D8%B1%D9%85%D8%B6%D8%A7%D9%86_3.jpg",
+            "https://image.freepik.com/free-vector/happy-eid-mubarak-background-green-design_23-2147633261.jpg",
 
           khassidaFirstLetter: "A" // mettre un regex
         },
@@ -99,7 +99,7 @@ export default {
           arabicTitle: "قصة حبي أو",
           khassidaPdfUrl: "http://www.daaraykamil.com/Asma-ul-Husna-ar.pdf",
           khassidaThumb:
-            "https://www.muslimette-magazine.com/wp-content/uploads/2016/05/ramadan-900x556.jpg",
+            "https://media.gettyimages.com/vectors/arabic-calligraphy-name-of-prophet-mohammad-islamic-ornamental-border-vector-id610874634",
           khassidaFirstLetter: "A" // mettre un regex
         },
         {
@@ -110,7 +110,7 @@ export default {
           arabicTitle: "قصة حبي أو",
           khassidaPdfUrl: "http://www.daaraykamil.com/Asma-ul-Husna-ar.pdf",
           khassidaThumb:
-            "https://adminassets.devops.arabiaweather.com/sites/default/files/field/image/%D8%B1%D9%85%D8%B6%D8%A7%D9%86_3.jpg",
+            "https://image.freepik.com/free-vector/happy-eid-mubarak-background-green-design_23-2147633261.jpg",
           khassidaFirstLetter: "A" // mettre un regex
         },
         {
@@ -121,7 +121,7 @@ export default {
           arabicTitle: "قصة حبي أو",
           khassidaPdfUrl: "http://www.daaraykamil.com/Asma-ul-Husna-ar.pdf",
           khassidaThumb:
-            "https://www.muslimette-magazine.com/wp-content/uploads/2016/05/ramadan-900x556.jpg",
+            "http://thumbs.microstock.in/unsafe/http://microstock-in.s3.amazonaws.com/catalog/product/small_image/1/ISLAMIC/Eid-Mubarak_110063716_small.jpg",
           khassidaFirstLetter: "A" // mettre un regex
         },
         {

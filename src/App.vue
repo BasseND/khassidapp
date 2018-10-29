@@ -27,9 +27,13 @@
         <v-icon>search</v-icon>
       </v-btn>
 
-      <v-btn icon>
+      <v-btn icon to="/">
+        <v-icon>view_list</v-icon>
+      </v-btn>
+      <v-btn icon to="/grid">
         <v-icon>view_module</v-icon>
       </v-btn>
+
     </v-toolbar>
 
     <v-content>
