@@ -156,15 +156,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .kh_card {
   box-shadow: 1px 5px 12px 0px #e8eeff;
   border: 1px solid #e8eeff;
-}
-.kh_title {
-  font-size: 38px !important;
-}
-.kh_action {
+  .kh_title {
+    font-size: 38px !important;
+  }
+  .kh_action {
+  }
 }
 </style>
 
