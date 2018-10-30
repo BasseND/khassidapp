@@ -1,0 +1,18 @@
+@import "_variables.scss";
+
+/*  GENERAL  */
+.kh_drawer {
+    background: $mainColor;
+
+    .drawer_header {
+        .iconBack {}
+
+        .app_info {
+            .image {}
+
+            .name {
+                h4 {}
+            }
+        }
+    }
+}

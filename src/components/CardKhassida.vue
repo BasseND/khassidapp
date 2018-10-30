@@ -5,18 +5,18 @@
 
                 <v-layout row wrap mt-5>
                     <v-flex xs12 md2 sm4 mr-3 mb-3 v-for="item in items2" :key="item.title">
-                        <v-card>
+                        <v-card class="kh_card">
                             <v-img :src="item.khassidaThumb" height="160px">
                                 <v-container fill-height fluid pa-2>
                                     <v-layout fill-height>
                                         <v-flex xs12 align-end flexbox>
-                                            <span class="headline white--text" v-text="item.arabicTitle"></span>
+                                            <span class="kh_title headline white--text" v-text="item.arabicTitle"></span>
                                         </v-flex>
                                     </v-layout>
                                 </v-container>
                             </v-img>
 
-                            <v-card-actions>
+                            <v-card-actions class="kh_action">
                                 <h2>{{ item.title }}</h2>
                             </v-card-actions>
                         </v-card>
@@ -152,3 +152,16 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.kh_card {
+  box-shadow: 1px 5px 12px 0px #e8eeff;
+  border: 1px solid #e8eeff;
+}
+.kh_title {
+  font-size: 38px !important;
+}
+.kh_action {
+}
+</style>
+

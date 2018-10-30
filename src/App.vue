@@ -1,6 +1,20 @@
 <template>
   <v-app>
-    <v-navigation-drawer temporary fixed v-model="drawer" enable-resize-watcher app>
+    <v-navigation-drawer class="kh_drawer" temporary fixed v-model="drawer" enable-resize-watcher app>
+      <div class="drawer_header">
+        <div class="iconBack">
+          <v-icon>search</v-icon>
+        </div>
+        <div class="app_info">
+          <div class="image">
+
+          </div>
+          <div class="name">
+            <h4>Dieuredieufa Khadimoul</h4>
+            <h4>Moustapha</h4>
+          </div>
+        </div>
+      </div>
 
       <v-list>
         <v-list-tile value="true" v-for="(routeLink, i) in routeLinks" :key="i" :to="routeLink.path">
@@ -104,3 +118,8 @@ export default {
   }
 };
 </script>
+
+<style>
+@import url("/assets/css/app.css");
+</style>
+
